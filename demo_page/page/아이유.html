@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<!-- head 부분에 Script를 넣어주세요.-->
+<head>
+  <title>아이유</title>
+  <meta charset="utf-8">
+</head>
+ 
+<!-- html 파일이 저장되는 같은 위치에 music1.mp3과 music2.mp 이름으로 음악파일을 넣어주세요.-->
+<body>
+
+<link rel="stylesheet" href="bootstrap.css">
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="main.html">Voice Conversion</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="아이유.html">아이유
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="장범준.html">장범준</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="권정열.html">권정열</a>
+          </li>
+          
+        </ul>
+
+      </div>
+    </div>
+</nav>
+
+<div class="container" style = "margin: 5rem auto;">
+<div style="float:left;">
+<img src="../assets/img/아이유.jpg" height="400" style="margin-right: 3rem;">
+</div>
+<div class="card bg-secondary mb-3" style="max-width: 60rem;">
+  <div class="card-header"><h1>IU</h1></div>
+  <div class="card-body">
+    <h4 class="card-title">이지은, IU | 가수, 탤런트</h4>
+    <p class="card-text">출생: 1993. 5. 16.<br>
+    소속사: EDAM엔터테인먼트<br>
+    데뷔: 2008년 미니 앨범 "Lost and Found"<br>
+    수상: 2021년 제35회 골든디스크 어워즈 디지털음원부문 대상</p>
+  </div>
+</div>
+<div class="button-container" style="display:inline; margin:auto;">
+  <button type="button" class="btn btn-outline-primary" onclick="window.open('https://twitter.com/_IUofficial');">Twitter</button>
+  <button type="button" class="btn btn-outline-insta" onclick="window.open('https://www.instagram.com/dlwlrma');">Instagram</button>
+  <button type="button" class="btn btn-outline-danger" onclick="window.open('https://www.youtube.com/dlwlrma');">YouTube</button>
+  <button type="button" class="btn btn-outline-info" onclick="window.open('https://www.facebook.com/iu.loen');">Facebook</button>
+</div>
+<div class="container" style="margin-top:3rem;">
+<div class="bs-component">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">
+              Target
+          </th>
+          <th scope="col">Converted</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-default">
+          <th scope="row">태연 - 들리나요</th>
+          <td>
+            <audio id="audio1" src="../assets/audio/IU_wav/iu_listen.wav" controls preload></audio>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">윤하 - 기다리다</th>
+          <td>
+            <audio id="audio2" src="../assets/audio/IU_wav/iu_wait.wav" controls preload></audio>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">신예영 - 우리 왜 헤어져야 해</th>
+          <td>
+            <audio id="audio3" src="../assets/audio/IU_wav/iu_go.wav" controls preload></audio>
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+</div>
+
+</body>
+ 

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<!-- head 부분에 Script를 넣어주세요.-->
+<head>
+  <title>권정열</title>
+  <meta charset="utf-8">
+</head>
+ 
+<!-- html 파일이 저장되는 같은 위치에 music1.mp3과 music2.mp 이름으로 음악파일을 넣어주세요.-->
+<body>
+
+<link rel="stylesheet" href="bootstrap.css">
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="main.html">Voice Conversion</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="아이유.html">아이유</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="장범준.html">장범준</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="권정열.html">권정열
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          
+        </ul>
+
+      </div>
+    </div>
+</nav>
+
+<div class="container" style = "margin: 5rem auto;">
+<div style="float:left;">
+<img src="../assets/img/권정열.jpg" height="400" style="margin-right: 3rem;">
+</div>
+<div class="card bg-secondary mb-3" style="max-width: 60rem;">
+  <div class="card-header"><h1>권정열</h1></div>
+  <div class="card-body">
+    <h4 class="card-title">가수</h4>
+    <p class="card-text">출생: 1983. 3. 1.<br>
+    소속그룹: 10CM<br>
+    데뷔: 2004년 해령 1집 앨범 "Virus"<br>
+    수상: 2016년 제8회 멜론뮤직어워드 뮤직스타일상 포크블루스 부문<br>
+    학력: 연세대학교 교육학과 중퇴</p>
+  </div>
+</div>
+<div class="button-container" style="display:inline; margin:auto;">
+  <button type="button" class="btn btn-outline-primary" onclick="window.open('http://www.msbsound.com/artist/10cm/');">Official Site</button>
+  <button type="button" class="btn btn-outline-insta" onclick="window.open('https://www.instagram.com/hi990103');">Instagram</button>
+  <button type="button" class="btn btn-outline-danger" onclick="window.open('https://www.youtube.com/channel/UCRmShE13u8THvf_ptRVktRg/featured');">YouTube</button>
+  <button type="button" class="btn btn-outline-info" onclick="window.open('https://www.facebook.com/tencentimeter');">Facebook</button>
+</div>
+<div class="container" style="margin-top:3rem;">
+<div class="bs-component">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">
+              Target
+          </th>
+          <th scope="col">Converted</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-default">
+          <th scope="row">델리스파이스 - 고백</th>
+          <td>
+            <audio id="audio1" src="../assets/audio/10cm_wav/10cm_goback2.wav" controls preload></audio>
+          </td>
+        </tr>
+        <tr class="table-default">
+          <th scope="row">스탠딩 에그 - 오래된 노래</th>
+          <td>
+            <audio id="audio2" src="../assets/audio/10cm_wav/10cm_oldsong.wav" controls preload></audio>
+          </td>
+        </tr>
+        <tr class="table-default">
+          <th scope="row">성시경 - 너의 모든 순간</th>
+          <td>
+            <audio id="audio3" src="../assets/audio/10cm_wav/10cm_youreverymoment2.wav" controls preload></audio>
+          </td>
+        </tr>
+        <tr class="table-default">
+          <th scope="row">연세여 사랑한다</th>
+          <td>
+            <audio id="audio2" src="../assets/audio/10cm_wav/10cm_yonsei.wav" controls preload></audio>
+          </td>
+        </tr>
+        <tr class="table-default">
+          <th scope="row">신예영-우리 왜 헤어져야 해</th>
+          <td>
+            <audio id="audio2" src="../assets/audio/이별택시 -- 김연우.wav" controls preload></audio>
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+</div>
+
+</body>
+ 
